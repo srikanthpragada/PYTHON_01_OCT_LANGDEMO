@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd1d1423-d47b-4222-b3d9-4eb5c3e7cc53" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ex/odd_even.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ds/sort_customers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,16 +63,25 @@
         <entry file="file://$PROJECT_DIR$/ds/sort_names.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="odd_even.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="odd_even.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex/odd_even.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sort_customers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ds/sort_customers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -119,10 +128,11 @@
         <option value="$PROJECT_DIR$/ex/no_days2.py" />
         <option value="$PROJECT_DIR$/ds/sort_names.py" />
         <option value="$PROJECT_DIR$/ex/odd_even.py" />
+        <option value="$PROJECT_DIR$/ds/sort_customers.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="17" />
     <option name="y" value="27" />
     <option name="width" value="1260" />
@@ -142,6 +152,11 @@
             <path>
               <item name="langdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="langdemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="langdemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="langdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="langdemo" type="b2602c69:ProjectViewProjectNode" />
@@ -172,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.odd_even">
+  <component name="RunManager" selected="Python.sort_customers">
     <configuration name="no_days" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="langdemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,7 +242,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="prime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sort_customers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="langdemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,11 +250,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ds" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prime.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ds/sort_customers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,19 +279,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.prime" />
       <item itemvalue="Python.no_days" />
       <item itemvalue="Python.no_days2" />
       <item itemvalue="Python.sort_names" />
       <item itemvalue="Python.odd_even" />
+      <item itemvalue="Python.sort_customers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sort_customers" />
         <item itemvalue="Python.odd_even" />
         <item itemvalue="Python.sort_names" />
         <item itemvalue="Python.no_days2" />
         <item itemvalue="Python.no_days" />
-        <item itemvalue="Python.prime" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +309,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15703125" />
@@ -302,7 +317,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3808096" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36431783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -320,13 +335,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ex/no_days.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -666,14 +674,21 @@
     <entry file="file://$PROJECT_DIR$/ds/sort_names.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex/odd_even.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ds/sort_customers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
