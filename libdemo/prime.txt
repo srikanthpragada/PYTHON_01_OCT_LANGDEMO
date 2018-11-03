@@ -1,0 +1,6 @@
+1919191 is not prime number!
+229292929291731 is not prime number!
+37 is prime number!
+29329391379 is not prime number!
+393939111 is not prime number!
+3938383812 is not prime number!

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd1d1423-d47b-4222-b3d9-4eb5c3e7cc53" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/database/add_job.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/avg_min_salary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/commands.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/list_jobs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/update_job_title.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex/show_country_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libdemo/logging_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libdemo/mt_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libdemo/multi_threading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libdemo/prime_number_threads.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/show_country_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex/show_country_info.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,50 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="list_python_files.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libdemo/list_python_files.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex/contacts.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex/contacts.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list_st_items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libdemo/list_st_items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="commands.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/commands.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -71,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/database/list_jobs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -80,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/database/add_job.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -89,25 +49,61 @@
         <entry file="file://$PROJECT_DIR$/database/update_job_title.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="avg_min_salary.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="avg_min_salary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/avg_min_salary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="192">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_countries.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libdemo/list_countries.py">
+      <file leaf-file-name="multi_threading.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libdemo/multi_threading.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="336">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mt_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libdemo/mt_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prime_number_threads.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libdemo/prime_number_threads.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logging_demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libdemo/logging_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show_country_info.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ex/show_country_info.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -132,12 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fundemo/fun1.py" />
-        <option value="$PROJECT_DIR$/fundemo/op_params.py" />
-        <option value="$PROJECT_DIR$/fundemo/return_demo.py" />
-        <option value="$PROJECT_DIR$/fundemo/vary_args.py" />
-        <option value="$PROJECT_DIR$/fundemo/keyword_args.py" />
-        <option value="$PROJECT_DIR$/fundemo/fun_objects.py" />
         <option value="$PROJECT_DIR$/fundemo/filter_demo.py" />
         <option value="$PROJECT_DIR$/fundemo/lambda_sort.py" />
         <option value="$PROJECT_DIR$/fundemo/passing.py" />
@@ -183,6 +173,12 @@
         <option value="$PROJECT_DIR$/database/add_job.py" />
         <option value="$PROJECT_DIR$/database/update_job_title.py" />
         <option value="$PROJECT_DIR$/database/avg_min_salary.py" />
+        <option value="$PROJECT_DIR$/ex/show_country_info.py" />
+        <option value="$PROJECT_DIR$/libdemo/multi_threading.py" />
+        <option value="$PROJECT_DIR$/libdemo/mt_demo.py" />
+        <option value="$PROJECT_DIR$/libdemo/prime_number_threads.py" />
+        <option value="$PROJECT_DIR$/libdemo/loggin.py" />
+        <option value="$PROJECT_DIR$/libdemo/logging_demo.py" />
       </list>
     </option>
   </component>
@@ -206,21 +202,6 @@
             <path>
               <item name="langdemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="langdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="langdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="langdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="langdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="langdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="libdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="langdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="langdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="oop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,8 +235,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.avg_min_salary">
-    <configuration name="add_job" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.logging_demo">
+    <configuration name="logging_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="langdemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,17 +244,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/add_job.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/logging_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="avg_min_salary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mt_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="langdemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -281,17 +262,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/avg_min_salary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/mt_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="list_jobs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="multi_threading" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="langdemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,11 +280,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/list_jobs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/multi_threading.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="prime_number_threads" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="langdemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/libdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/libdemo/prime_number_threads.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,37 +326,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="update_job_title" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="langdemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/update_job_title.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.show_country_info" />
-      <item itemvalue="Python.list_jobs" />
-      <item itemvalue="Python.add_job" />
-      <item itemvalue="Python.update_job_title" />
-      <item itemvalue="Python.avg_min_salary" />
+      <item itemvalue="Python.multi_threading" />
+      <item itemvalue="Python.mt_demo" />
+      <item itemvalue="Python.prime_number_threads" />
+      <item itemvalue="Python.logging_demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.avg_min_salary" />
-        <item itemvalue="Python.update_job_title" />
-        <item itemvalue="Python.add_job" />
-        <item itemvalue="Python.list_jobs" />
+        <item itemvalue="Python.logging_demo" />
+        <item itemvalue="Python.prime_number_threads" />
+        <item itemvalue="Python.mt_demo" />
+        <item itemvalue="Python.multi_threading" />
         <item itemvalue="Python.show_country_info" />
       </list>
     </recent_temporary>
@@ -379,12 +360,12 @@
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1765625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17578125" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31934032" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3838081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -407,41 +388,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fundemo/return_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fundemo/vary_args.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fundemo/keyword_args.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fundemo/fun_objects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fundemo/lambda_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fundemo/filter_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -715,17 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex/show_country_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libdemo/list_st_items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="168">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -735,35 +674,73 @@
     <entry file="file://$PROJECT_DIR$/database/commands.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/list_jobs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/add_job.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/update_job_title.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ex/show_country_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/avg_min_salary.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libdemo/multi_threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libdemo/prime.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libdemo/mt_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libdemo/prime_number_threads.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libdemo/logging_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
